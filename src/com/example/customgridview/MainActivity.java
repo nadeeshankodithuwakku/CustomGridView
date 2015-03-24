@@ -25,6 +25,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		Log.d("Hello","Hello");
+		
 		empNames = new String[]{"AAA","BBB","CCC","DDD"};
 		
 		myGrid=(GridView)findViewById(R.id.MyGrid);
